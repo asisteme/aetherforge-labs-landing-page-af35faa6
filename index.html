@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AetherForge Labs — Custom Software Craftsmanship</title>
+    <meta
+      name="description"
+      content="AetherForge Labs: Innovating bespoke software solutions that forge the future."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-container">
+        <a href="#" class="logo">AetherForge <span>Labs</span></a>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="#cases">Casos de Éxito</a></li>
+            <li><a href="#process">Nuestro Proceso</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="overlay"></div>
+      <img
+        class="hero-bg"
+        src="https://images.unsplash.com/photo-1518770660439-462479f22584?auto=format&amp;fit=crop&amp;w=1920&amp;q=80"
+        alt="Abstract technological background"
+      />
+      <div class="hero-content container">
+        <h1>Forjamos software que impulsa tu futuro</h1>
+        <p>
+          Diseñamos soluciones a medida, fusionando creatividad y tecnología
+          para transformar tu visión en realidad.
+        </p>
+        <a href="#contact" class="btn-primary">Solicita una consulta</a>
+      </div>
+    </section>
+
+    <section class="cases" id="cases">
+      <div class="container">
+        <h2 class="section-title">Casos de Éxito</h2>
+        <div class="cases-grid">
+          <article class="case-card">
+            <h3>NovaRetail Suite</h3>
+            <p>
+              Plataforma POS omnicanal desarrollada en 6 meses, redujo
+              transacciones fallidas en un 42 %.
+            </p>
+            <span class="tag">Comercio minorista</span>
+          </article>
+
+          <article class="case-card">
+            <h3>AstraHealth AI</h3>
+            <p>
+              Sistema de diagnóstico predictivo que analiza 1 M de registros
+              clínicos diarios con 97 % de precisión.
+            </p>
+            <span class="tag">Salud</span>
+          </article>
+
+          <article class="case-card">
+            <h3>QuantumFleet</h3>
+            <p>
+              Solución IoT de monitoreo vehicular que elevó la eficiencia de
+              ruta en un 28 %.
+            </p>
+            <span class="tag">Logística</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="container">
+        <h2 class="section-title">Nuestro Proceso</h2>
+        <ol class="timeline">
+          <li>
+            <h4>1. Descubrimiento</h4>
+            <p>
+              Entendemos tu negocio y definimos objetivos claros junto a los
+              stakeholders.
+            </p>
+          </li>
+          <li>
+            <h4>2. Diseño &amp; Prototipo</h4>
+            <p>
+              Creamos wireframes interactivos y validamos la experiencia de
+              usuario.
+            </p>
+          </li>
+          <li>
+            <h4>3. Desarrollo Ágil</h4>
+            <p>
+              Entregas iterativas con CI/CD, garantizando calidad y flexibilidad
+              continua.
+            </p>
+          </li>
+          <li>
+            <h4>4. Lanzamiento &amp; Soporte</h4>
+            <p>
+              Despliegue seguro en la nube y acompañamiento post-lanzamiento
+              para escalar tu producto.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>¿Listo para forjar el futuro de tu proyecto?</h2>
+        <a href="#contact" class="btn-secondary">Agenda tu sesión inicial</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-box">
+        <h2>Solicita una consulta</h2>
+        <form id="contactForm">
+          <input
+            type="text"
+            name="name"
+            placeholder="Nombre completo"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Correo electrónico"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Cuéntanos sobre tu proyecto"
+            rows="4"
+            required
+          ></textarea>
+          <button type="submit" class="btn-primary">Enviar</button>
+        </form>
+        <p class="form-note">
+          Responderemos en menos de 24 horas hábiles.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> AetherForge Labs. Todos los derechos reservados.</p>
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Twitter"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+              >GitHub</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
